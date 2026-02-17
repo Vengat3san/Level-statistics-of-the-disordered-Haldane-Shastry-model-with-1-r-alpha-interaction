@@ -16,9 +16,9 @@ This repository contains the source codes for Exact Diagonalization (ED) of the 
 **Clean limit:** We consider the following variant of the Haldane-Shastry model described by the Hamiltonian
 
 ```math
-H_0 = \frac{1}{\mathcal{N}} \left( \frac{2\pi }{N}\right)^{\alpha} \sum_{1{<}z}
+H_0 = \frac{1}{\mathcal{N}}\left( \frac{2\pi }{N}\right)^{\alpha} \sum_{1\leq j{<}k \leq N} \frac{\vec{S}_j \cdot \vec{S}_k}{\left|\eta_j-\eta_k\right|^{\alpha}},
 ```
-H_0 = \frac{1}{\mathcal{N}}\left( \frac{2\pi }{N}\right)^{\alpha} \sum_{1\leq j<k \leq N} \frac{\vec{S}_j \cdot \vec{S}_k}{\left|\eta_j-\eta_k\right|^{\alpha}},
+
 
 
 where $\mathcal{N}$ is a scale factor, $\eta_j{=}e^{i\frac{2\pi}{N} j}$ is the position of the $j^{\rm th}$ spin in the complex plane, $\left|\eta_j{-}\eta_k\right|{=}r$ is the chord distance between the sites $j$ and $k$. 
