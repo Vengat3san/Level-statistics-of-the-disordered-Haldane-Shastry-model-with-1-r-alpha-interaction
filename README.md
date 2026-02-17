@@ -62,7 +62,7 @@ To run these scripts locally, you need a working Julia installation.
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/repo-name.git
+git clone https://github.com/Vengat3san/Level-statistics-of-the-disordered-Haldane-Shastry-model-with-1-r-alpha-interaction.git
 ```
 
 ### Install dependencies:
