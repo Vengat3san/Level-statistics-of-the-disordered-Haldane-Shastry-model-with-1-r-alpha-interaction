@@ -16,7 +16,7 @@ This repository contains the source codes for Exact Diagonalization (ED) of the 
 **Clean limit:** We consider the following variant of the Haldane-Shastry model described by the Hamiltonian
 
 ```math
-H_0 = \frac{1}{\mathcal{N}} \left( \frac{2\pi }{N}\right)^{\alpha} \sum_{{1 <j<k <}}
+H_0 = \frac{1}{\mathcal{N}} \left( \frac{2\pi }{N}\right)^{\alpha} \sum_{1}
 ```
 H_0 = \frac{1}{\mathcal{N}}\left( \frac{2\pi }{N}\right)^{\alpha} \sum_{1\leq j<k \leq N} \frac{\vec{S}_j \cdot \vec{S}_k}{\left|\eta_j-\eta_k\right|^{\alpha}},
 
