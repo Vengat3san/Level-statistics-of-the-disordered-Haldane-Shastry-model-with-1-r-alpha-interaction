@@ -27,13 +27,13 @@ As $\alpha$ increases from $0$, this model interpolates between the all-to-all H
 
 **Position disorder:** Introduced by randomly displacing the spins from their original sites in such a way that the neighboring spins do not cross each other.
 
-$$H_\delta= \frac{1}{\mathcal{N}}\left( \frac{2\pi }{N}\right)^{\alpha} \sum_{1\leq j<k \leq N} \frac{\vec{S}_j \cdot \vec{S}_k}{\left|\eta_j^{\delta}-\eta_k^{\delta}\right|^\alpha},$$
+$$H_\delta= \frac{1}{\mathcal{N}}\left( \frac{2\pi }{N}\right)^{\alpha} \sum_{1\leq j{<}k \leq N} \frac{\vec{S}_j \cdot \vec{S}_k}{\left|\eta_j^{\delta}-\eta_k^{\delta}\right|^\alpha},$$
 
 where $\eta_j^{\delta}{=}e^{i\frac{2\pi}{N}(j{+}\zeta^{\delta}_j)}$ is the new displaced position of the $j^{\rm{th}}$ spin with $\zeta^{\delta}_j$ being a uniformly distributed random number in the interval $[{-}\delta/2,\delta/2]$, and $\delta{\in}[0, 1]$ controls the strength of the position disorder. 
 
 **Field disorder:** Introduced by the random longitudinal magnetic field term $H_h{=}(1/\mathcal{N})\sum h_j\, S_j^z$, where $h_j$ is a Gaussian distributed random number with mean $0$ and variance $h^2$. This term breaks the $SU(2)$ symmetry of the Hamiltonian down to $U(1)$. The field strength is measured relative to the interaction energy between nearest-neighbor (NN) spins of the clean Hamiltonian i.e., $J^{\rm NN}_\alpha$.
 
-$$H=H_\delta+H_h =\frac{1}{\mathcal{N}}\left[\left( \frac{2\pi }{N}\right)^{\alpha} \sum_{1\leq j<k \leq N} \frac{\vec{S}j \cdot \vec{S}k}{\left|\eta_j^{\delta}-\eta_k^{\delta}\right|^\alpha} + \sum{1\leq j \leq N} h_j \, S_j^z\right].$$
+$$H=H_\delta+H_h =\frac{1}{\mathcal{N}}\left[\left( \frac{2\pi }{N}\right)^{\alpha} \sum_{1\leq j{<}k \leq N} \frac{\vec{S}j \cdot \vec{S}k}{\left|\eta_j^{\delta}-\eta_k^{\delta}\right|^\alpha} + \sum{1\leq j \leq N} h_j \, S_j^z\right].$$
 
 # Repository Structure
 ```
