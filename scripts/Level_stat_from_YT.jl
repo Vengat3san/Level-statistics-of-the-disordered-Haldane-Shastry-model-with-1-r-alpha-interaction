@@ -95,7 +95,7 @@ function main(L_in::Integer)
     sizehint!(E_list_p1, total_size ÷ Int(L))
 
     idx = 1
-    for nup in UInt64(L_h):-1:1
+    for nup in UInt64(L_h):-1:0
         x = (one(UInt64) << nup) - 1
         while x <= LIMIT
             x_not = ~x & MASK
