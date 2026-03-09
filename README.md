@@ -49,8 +49,8 @@ $$
 ├── scripts/                # Example scripts for ED calculations
 │   └── (example scripts)
 │
-├── src/                    # Julia source codes for ED calculations
-│   └── (source files)
+├── src/                    # Julia source functions for ED calculations
+│   └── (source functions)
 │
 ├── Manifest.toml           # Exact dependency versions
 ├── Project.toml            # Julia project dependencies
