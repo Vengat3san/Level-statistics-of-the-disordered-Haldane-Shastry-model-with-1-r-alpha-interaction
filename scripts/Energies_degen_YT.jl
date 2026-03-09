@@ -124,7 +124,7 @@ function main(L::UInt64)
 end
 
 
-for L in 34:2:36
+for L in 10:2:36
     
     println("For L=$(L) starts")
     @time eigen_vals, degeneracies = main(UInt64(L));
