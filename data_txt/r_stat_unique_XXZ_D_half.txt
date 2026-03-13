@@ -1,0 +1,12 @@
+# This file contains the mean r-statistics values for the XXZ model with Δ=0.5 in the (m,k)=(0,1) sector and the full spectrum for various system size 
+ with and without filtering out the degeneracies in the energy spectrum.
+# Columns: N, mean r-statistics in (m,k)=(0,1)_raw, mean r-statistics in (m,k)=(0,1)_unique, mean r-statistics in full spectrum with unique energies
+ 
+N, r-stat_(m,k)=(0,1)_raw, r-stat_(m,k)=(0,1)_unique, r-stat_full_spectrum_unique
+ 
+10 0.18852678011702598 0.3439597980447037 0.3769855663830127
+12 0.1841411301362583 0.4007332231166473 0.37901263513672423
+14 0.16575561384281673 0.35666747440025415 0.3899865591522474
+16 0.13274492020417442 0.3828576886228435 0.3860184069244584
+18 0.10737654185555105 0.38005708473908045 0.38948482736386686
+20 0.09340719289601748 0.3954109568513307 0.3868875911681084

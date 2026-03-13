@@ -1,0 +1,27 @@
+# This file contains the number of unique energy levels for the Haldane-Shastry model with system sizes ranging from N=10 to N=52.
+# Columns: N, num_unique_energies
+ 
+N, num_unique_energies
+ 
+10 40
+12 79
+14 146
+16 234
+18 358
+20 514
+22 698
+24 937
+26 1218
+28 1545
+30 1931
+32 2382
+34 2879
+36 3459
+38 4090
+40 4817
+42 5615
+44 6503
+46 7455
+48 8517
+50 9668
+52 10919
