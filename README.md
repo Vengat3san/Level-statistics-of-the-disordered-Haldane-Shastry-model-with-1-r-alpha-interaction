@@ -45,6 +45,9 @@ $$
 ├── data/                   # Mean gap ratio datasets (JLD2 format)
 │   ├── (datasets)
 │   └── (notebooks for loading data and generating plots)
+|
+├── data_txt/                   # Mean gap ratio datasets (txt format)
+│   └── (datasets)
 │
 ├── scripts/                # Example scripts for ED calculations
 │   └── (example scripts)
@@ -56,7 +59,7 @@ $$
 ├── Project.toml            # Julia project dependencies
 └── README.md               # Project documentation
 ```
-# How to access the data
+# How to access the jld2 data
 
 To run these scripts locally, you need a working Julia installation.
 ### Clone the repository:
