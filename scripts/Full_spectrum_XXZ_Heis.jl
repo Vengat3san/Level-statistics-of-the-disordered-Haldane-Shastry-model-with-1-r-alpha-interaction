@@ -50,7 +50,7 @@ end
  
 L_l = [10,12,14,16,18]
 J=1.0
-Delta=1.0 #cos(pi/3)
+Delta=cos(pi/3)
 output_prefix = "XXZ_Heis_energies"
 for L in L_l
     println("Processing L=$L")
