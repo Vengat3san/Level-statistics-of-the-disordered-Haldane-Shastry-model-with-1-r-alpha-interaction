@@ -67,7 +67,7 @@ function compute_and_save_level_stat_alpha_range(L::Int64, m::Float64, alpha_lis
  delta=length(ARGS) >= 3 ? parse(Float64, ARGS[3])    : 0.1
  hj=length(ARGS) >= 4 ? parse(Float64, ARGS[4])    : 0.1 
 
- N=1024
+ N=1024 # Ensemble size
 
  println("Using $(nthreads()) threads ")
  println("Using $(MKL.get_num_threads()) MKL threads")
